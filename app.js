@@ -10,6 +10,7 @@ btn.addEventListener('click', () => {
     let qrvalue = input.value;
     if (qrvalue == "") {
         err.innerText = 'Nəsə səhvlik var :(';
+        img.src =''
     }
     else {
         err.innerText=''
