@@ -2,9 +2,6 @@ let input = document.querySelector('input')
 let btn = document.querySelector('button')
 let img = document.querySelector('img')
 let err = document.querySelector('.err')
-// input.addEventListener('keyup', () => {
-
-// })
 
 btn.addEventListener('click', () => {
     let qrvalue = input.value;
